@@ -172,7 +172,7 @@ header {
   background-size: cover;
 }
 
-.bottom-box-header {
+#bottom-box-header {
   padding: 0% 10% 1% 10%;
   align-self: center;
   text-align: center;
@@ -182,7 +182,7 @@ header {
 
 .option-icon {
   font-size: 1rem !important;
-  transform: translateY(2px);
+  transform: translateY(3px);
 }
 
 #online-button {
@@ -210,7 +210,32 @@ header {
   background-size: cover;
 }
 
-.bottom-box-header-two {
+#vintage-logo {
+  align-self: center;
+  max-width: 38%;
+}
+
+#vintage-logo {
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  #vintage-logo {
+    align-self: center;
+    max-width: 25%;
+    padding: 5%;
+  }
+}
+
+/* BOX 3 */
+
+#box-three {
+  flex: 1;
+  background-image: url("/photos/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+}
+
+#bottom-box-header-three {
   padding: 0% 10% 0% 10%;
   align-self: center;
   text-align: center;
@@ -219,7 +244,7 @@ header {
   line-height: 2.5rem;
 }
 
-.bottom-box-text-two {
+#bottom-box-text-three {
   font-size: 0.8rem;
   transform: translateY(-20%);
   padding: 3% 20% 2% 20%;
@@ -242,29 +267,4 @@ header {
   transform: translateY(-3%);
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
-
-/* BOX 3 */
-
-#box-three {
-  flex: 1;
-  background-image: url("/photos/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-  background-size: cover;
-}
-
-#vintage-logo {
-  align-self: center;
-  max-width: 38%;
-}
-
-#vintage-logo {
-  cursor: pointer;
-}
-
-@media (max-width: 760px) {
-  #vintage-logo {
-    align-self: center;
-    max-width: 25%;
-    padding: 5%;
-  }
 }
