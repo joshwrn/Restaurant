@@ -18,7 +18,7 @@ const createTop = function () {
 const createBottom = function () {
   const bottomSection = document.createElement("div");
   bottomSection.setAttribute("id", "bottom-section");
-  //BOX ONE
+  //! BOX ONE
   const boxOne = document.createElement("div");
   boxOne.setAttribute("id", "box-one");
   boxOne.classList.add("bottom-box");
@@ -36,18 +36,18 @@ const createBottom = function () {
   boxOne.appendChild(orderHeader);
   boxOne.appendChild(onlineButton);
   content.appendChild(bottomSection);
-  //BOX TWO
+  //! BOX TWO
   const boxTwo = document.createElement("div");
   boxTwo.setAttribute("id", "box-two");
   boxTwo.classList.add("bottom-box");
-  //vintage logo
+  // vintage logo
   const vintageLogo = document.createElement("img");
   vintageLogo.src = "/photos/vintage-logo.png";
   vintageLogo.setAttribute("id", "vintage-logo");
   //append elements
   bottomSection.appendChild(boxTwo);
   boxTwo.appendChild(vintageLogo);
-  //BOX THREE
+  //! BOX THREE
   const boxThree = document.createElement("div");
   boxThree.setAttribute("id", "box-three");
   boxThree.classList.add("bottom-box");
