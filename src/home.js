@@ -8,7 +8,7 @@ const createTop = function () {
   const topSection = document.createElement("div");
   topSection.setAttribute("id", "top-section");
   const logo = document.createElement("img");
-  logo.src = "./photos/logo.png";
+  logo.src = "/photos/logo.png";
   logo.setAttribute("id", "logo");
   content.appendChild(topSection);
   topSection.appendChild(logo);
@@ -41,7 +41,7 @@ const createBottom = function () {
   boxTwo.classList.add("bottom-box");
   // vintage logo
   const vintageLogo = document.createElement("img");
-  vintageLogo.src = ".../photos/vintage-logo.png";
+  vintageLogo.src = "/photos/vintage-logo.png";
   vintageLogo.setAttribute("id", "vintage-logo");
   //append elements
   bottomSection.appendChild(boxTwo);
