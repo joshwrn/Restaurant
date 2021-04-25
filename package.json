@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshwrn/Restaurant.git"
+    "url": "git+https://github.com/joshwrn/restaurant.git"
   },
   "author": "Josh Warren",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joshwrn/Restaurant/issues"
+    "url": "https://github.com/joshwrn/restaurant/issues"
   },
-  "homepage": "https://github.com/joshwrn/Restaurant",
+  "homepage": "https://github.com/joshwrn/restaurant",
   "devDependencies": {
     "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0"
