@@ -45,7 +45,7 @@ body {
   user-select: none;
 }
 
-/* HEADER */
+/** HEADER */
 
 header {
   display: flex;
@@ -55,6 +55,7 @@ header {
   width: 100%;
   color: white;
   justify-content: space-between;
+  z-index: 1;
 }
 
 @media (max-width: 760px) {
@@ -112,7 +113,9 @@ header {
   cursor: pointer;
 }
 
-/* TOP SECTION */
+/** HOMEPAGE */
+
+/*! TOP SECTION */
 
 #top-section {
   display: grid;
@@ -140,7 +143,7 @@ header {
   transform: translateY(100px);
 }
 
-/* BOTTOM SECTION */
+/*! BOTTOM SECTION */
 
 #bottom-section {
   display: flex;
@@ -155,7 +158,7 @@ header {
   }
 }
 
-/* BOX 1 */
+/*! BOX 1 */
 
 .bottom-box {
   height: 40vh;
@@ -202,7 +205,7 @@ header {
   color: rgb(0, 0, 0);
 }
 
-/* BOX 2 */
+/*! BOX 2 */
 
 #box-two {
   flex: 1;
@@ -227,7 +230,7 @@ header {
   }
 }
 
-/* BOX 3 */
+/*! BOX 3 */
 
 #box-three {
   flex: 1;
@@ -267,4 +270,105 @@ header {
   transform: translateY(-3%);
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+/** MENU PAGE */
+
+#menu-page {
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-image: url("/photos/jonathan-nguyen-XwO0raJ2dQM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  background: rgba(0, 0, 0, 0.651);
+  backdrop-filter: blur(20px);
+  width: 70%;
+  height: 70%;
+  justify-content: center;
+  position: absolute;
+}
+
+#menu-header {
+  font-family: "Parisienne", cursive;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  font-size: 2.5rem;
+}
+
+#menu-item-grid {
+  position: absolute;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+  height: 100%;
+}
+
+.menu-header {
+  font-family: "Pinyon Script", cursive;
+  font-size: 2rem;
+}
+
+#menu-logo {
+  max-width: 80%;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 760px) {
+  #menu-logo {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #menu-item-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 90%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  #menu-wine {
+    margin-top: 5%;
+  }
+}
+
+#food {
+  text-align: center;
+  align-self: center;
+}
+
+#drinks {
+  text-align: center;
+  align-self: center;
+}
+
+.menu-item {
+  font-size: 0.8rem;
+  margin: 1%;
+}
+
+#menu-dinner {
+  margin-top: 5%;
+}
+
+#menu-red-wine {
+  margin-top: 5%;
 }
