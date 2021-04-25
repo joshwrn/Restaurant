@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../Library-App"
+	},
+	{
+		"path": "../../tic-tac-toe/tic-tac-toe"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Restaurant"
+  }
+}
