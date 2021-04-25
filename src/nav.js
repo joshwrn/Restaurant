@@ -1,10 +1,12 @@
 import { home } from "/src/home.js";
 import { menu } from "/src/menu.js";
+import { about } from "/src/about.js";
 
 const nav = () => {
   createLeft();
   createRight();
   clickNav();
+  switchView();
 };
 
 const header = document.getElementById("header");
@@ -49,9 +51,36 @@ const clickNav = () => {
         home();
         console.log("home");
       } else if (choice == "about") {
-        console.log("no about function");
+        content.innerHTML = "";
+        about();
+        console.log("about");
       }
     }
   });
 };
+
+const switchView = () => {
+  const root = document.documentElement;
+  let toggle = "off";
+  document.addEventListener("click", (e) => {
+    if (e.target.matches("#language-icon")) {
+      if (toggle == "off") {
+        console.log("view switch");
+        toggle = "on";
+        content.innerHTML = "";
+        home();
+        menu();
+        about();
+        root.style.setProperty("--nav-background", "black");
+      } else if (toggle == "on") {
+        console.log("view switch off");
+        toggle = "off";
+        content.innerHTML = "";
+        home();
+        root.style.setProperty("--nav-background", "rgba(0, 0, 0, 0)");
+      }
+    }
+  });
+};
+
 export { nav };

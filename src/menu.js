@@ -4,7 +4,6 @@ const menu = function () {
   createFoodList();
   createImage();
   createDrinkList();
-  console.log("menu loaded");
 };
 
 const createMenu = () => {

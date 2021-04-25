@@ -12,7 +12,6 @@ const createTop = function () {
   logo.setAttribute("id", "logo");
   content.appendChild(topSection);
   topSection.appendChild(logo);
-  console.log("homepage loaded");
 };
 
 const createBottom = function () {
