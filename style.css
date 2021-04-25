@@ -448,7 +448,7 @@ header {
 }
 
 #about-image {
-  background-image: url("/photos/christine-siracusa.jpg");
+  background-image: url("photos/christine-siracusa.jpg");
   background-position: center;
   background-size: cover;
 }
