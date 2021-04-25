@@ -127,7 +127,7 @@ header {
   position: relative;
   left: 0;
   top: 0;
-  background-image: url("/photos/nik-owens-40OJLYVWeeM-unsplash.jpg");
+  background-image: url("./photos/nik-owens-40OJLYVWeeM-unsplash.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
