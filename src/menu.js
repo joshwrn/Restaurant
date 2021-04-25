@@ -57,7 +57,7 @@ const createFoodList = () => {
 const createImage = () => {
   const menuGrid = document.getElementById("menu-item-grid");
   const menuLogo = document.createElement("img");
-  menuLogo.src = "/photos/logo.png";
+  menuLogo.src = "photos/logo.png";
   menuLogo.setAttribute("id", "menu-logo");
   menuGrid.appendChild(menuLogo);
 };

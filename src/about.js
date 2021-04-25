@@ -7,7 +7,7 @@ const createAboutPage = () => {
   const fullPage = `<div id="about-page">
   <div id="about-text">
 
-      <img id="about-logo" src="/photos/logo.png">
+      <img id="about-logo" src="photos/logo.png">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
       </p>
       <button id="about-button">Learn More</button>
