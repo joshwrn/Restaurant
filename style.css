@@ -178,7 +178,7 @@ header {
 
 #box-one {
   flex: 1;
-  background: url("/photos/cloris-ying.jpg");
+  background: url("https://raw.githubusercontent.com/joshwrn/restaurant/main/photos/cloris-ying.jpg");
   background-size: cover;
 }
 
