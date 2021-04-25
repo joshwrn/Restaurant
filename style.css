@@ -67,14 +67,14 @@ header {
 .nav-links {
   flex: 1;
   display: flex;
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .nav-item {
   margin: 20px;
 }
 
-.nav-item > a {
+.nav-item {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Helvetica, sans-serif;
@@ -82,7 +82,7 @@ header {
   position: relative;
 }
 
-.nav-item > a::after {
+.nav-item::after {
   content: "";
   position: absolute;
   left: 0;
@@ -95,7 +95,7 @@ header {
   transition: transform 200ms ease-in;
 }
 
-.nav-item > a:hover::after {
+.nav-item:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -129,7 +129,6 @@ header {
   height: 60vh;
   margin: 0;
   padding: 0;
-  z-index: -1;
 }
 
 #logo {
@@ -137,10 +136,13 @@ header {
   justify-self: center;
   align-self: center;
   max-height: 80%;
+  max-width: 100%;
+  transition: 325ms;
 }
 
 #logo:hover {
-  transform: translateY(100px);
+  transform: translateY(-0.3%);
+  cursor: pointer;
 }
 
 /*! BOTTOM SECTION */
@@ -216,9 +218,11 @@ header {
 #vintage-logo {
   align-self: center;
   max-width: 38%;
+  transition: 300ms;
 }
 
-#vintage-logo {
+#vintage-logo:hover {
+  transform: translateY(-0.5%);
   cursor: pointer;
 }
 
@@ -227,6 +231,9 @@ header {
     align-self: center;
     max-width: 25%;
     padding: 5%;
+  }
+  #box-two {
+    order: 3;
   }
 }
 
@@ -340,9 +347,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 90%;
     height: 100%;
     overflow-y: scroll;
+    width: 100%;
   }
 
   #menu-wine {
@@ -362,7 +369,7 @@ header {
 
 .menu-item {
   font-size: 0.8rem;
-  margin: 1%;
+  margin: 2%;
 }
 
 #menu-dinner {
@@ -372,3 +379,5 @@ header {
 #menu-red-wine {
   margin-top: 5%;
 }
+
+/** ABOUT PAGE */
