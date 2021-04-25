@@ -178,7 +178,7 @@ header {
 
 #box-one {
   flex: 1;
-  background: url("https://raw.githubusercontent.com/joshwrn/restaurant/main/photos/cloris-ying.jpg");
+  background: url("/photos/cloris-ying.jpg");
   background-size: cover;
 }
 
@@ -404,9 +404,8 @@ header {
 @media (max-width: 760px) {
   #about-page {
     display: flex;
-  }
-  #about-image {
-    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -448,7 +447,7 @@ header {
 }
 
 #about-image {
-  background-image: url("photos/christine-siracusa.jpg");
+  background-image: url("/photos/christine-siracusa.jpg");
   background-position: center;
   background-size: cover;
 }
