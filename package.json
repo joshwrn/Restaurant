@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/joshwrn/Restaurant/issues"
   },
-  "homepage": "https://github.com/joshwrn/Restaurant#readme",
+  "homepage": "https://github.com/joshwrn/Restaurant",
   "devDependencies": {
     "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0"
