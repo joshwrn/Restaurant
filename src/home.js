@@ -12,7 +12,7 @@ const createTop = function () {
   logo.setAttribute("id", "logo");
   content.appendChild(topSection);
   topSection.appendChild(logo);
-  console.log("hello?");
+  console.log("homepage loaded");
 };
 
 const createBottom = function () {
