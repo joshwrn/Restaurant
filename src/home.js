@@ -8,7 +8,7 @@ const createTop = function () {
   const topSection = document.createElement("div");
   topSection.setAttribute("id", "top-section");
   const logo = document.createElement("img");
-  logo.setAttribute("src", "logo.png");
+  logo.setAttribute("src", "photos/logo.png");
   logo.setAttribute("id", "logo");
   content.appendChild(topSection);
   topSection.appendChild(logo);
