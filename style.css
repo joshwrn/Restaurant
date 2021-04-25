@@ -127,7 +127,7 @@ header {
   position: relative;
   left: 0;
   top: 0;
-  background-image: url("/photos/nik-owens.jpg");
+  background-image: url("photos/nik-owens.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -178,7 +178,7 @@ header {
 
 #box-one {
   flex: 1;
-  background: url("/photos/cloris-ying.jpg");
+  background: url("photos/cloris-ying.jpg");
   background-size: cover;
 }
 
@@ -216,7 +216,7 @@ header {
 
 #box-two {
   flex: 1;
-  background-image: url("/photos/linda-sondergaard.jpg");
+  background-image: url("photos/linda-sondergaard.jpg");
   background-size: cover;
 }
 
@@ -246,7 +246,7 @@ header {
 
 #box-three {
   flex: 1;
-  background-image: url("/photos/jay-wennington.jpg");
+  background-image: url("photos/jay-wennington.jpg");
   background-size: cover;
 }
 
@@ -291,7 +291,7 @@ header {
   position: relative;
   left: 0;
   top: 0;
-  background-image: url("/photos/jonathan-nguyen.jpg");
+  background-image: url("photos/jonathan-nguyen.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -447,7 +447,7 @@ header {
 }
 
 #about-image {
-  background-image: url("/photos/christine-siracusa.jpg");
+  background-image: url("photos/christine-siracusa.jpg");
   background-position: center;
   background-size: cover;
 }
